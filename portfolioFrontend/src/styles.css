@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #1F1C1C;
+    background-image: url(./assets/img/banner.png);
+    background-attachment: fixed;
+}
+
+/* General */
+
+h2 {
+    color: #E7B4FF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #E7B4FF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+}
+
+span {
+    color: #FFFFFF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14px;
+    clear: inline-start;
+}
+
+/* Circle */
+
+.circle {
+    position: sticky;
+    bottom: 38.5%;
+    padding: 0;
+    height: 1rem;
+    width: 1rem;
+    background-color: #E7B4FF;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+/* About */
+
+.about{
+    min-height: 92vh;
+}
+
+h1 {
+    color: #E7B4FF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Main */
+
+.main {
+    margin-top: 10rem;
+    padding-left: 8%;
+}
+
+.main .mainRows {
+    margin-top: 10rem;
+    padding-left: 8%;
+}
+
+.main .work {
+    margin-top: 0;
+}
+
+/* Projects */
+
+.portfolioLanding {
+    max-width: 100%;
+}
